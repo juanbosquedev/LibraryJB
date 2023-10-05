@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+  position:relative;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bone);
+}
+
+/* Encabezado */
+header {
+  background-color: var(--violet);
+  color: var(--bone);
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.home_accesories{
+  position:relative;
+  display:grid;
+grid-template-columns: repeat(2, 1fr);}
+
+.calculator {
+  background-color:var(--bone);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: var(--bone);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media only screen and (max-width: 600px) {
+.home_accesories{
+  grid-template-columns: repeat(1,1fr);
+}
+}
+
+

@@ -1,0 +1,42 @@
+/* Barra de navegación */
+.containar_nav {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  grid-template-columns: repeat(3,1fr);
+
+
+  align-items: center;
+  background-color: var(--lightViolet);
+  text-align: center;
+
+  justify-content: space-between;
+
+  padding: 1rem 2rem 1rem 2rem;
+}
+.logo{
+    height: 3.5rem;
+  
+
+}
+nav a {
+  font-weight: 900;
+  font-size: 1rem;
+  color: var(--bone);
+  text-decoration: none;
+  padding-left:2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Estilos para el logo */
+.logo {
+   /* Espacio a la izquierda */
+  padding-right: 3rem; /* Espacio a la derecha */
+  color: var(--bone); /* Color del texto del logo */
+  font-weight: bold; /* Otras propiedades de estilo según sea necesario */
+}
